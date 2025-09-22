@@ -56,4 +56,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtResult" />
 
+    <ImageView
+        android:id="@+id/imgResult"
+        android:layout_width="360dp"
+        android:layout_height="361dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResult"
+        app:srcCompat="@drawable/nenhum" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
